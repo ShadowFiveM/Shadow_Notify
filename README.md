@@ -1,8 +1,6 @@
 # Shadow_Notify
 [![Discord](https://discordapp.com/api/guilds/941069212129042524/widget.png)](https://discord.gg/wcwheSZbCX)
 
-![Image](https://Shadow.com/i/02P11n2021p678.png)
-
 ## Requirements
 - FXServer
 
