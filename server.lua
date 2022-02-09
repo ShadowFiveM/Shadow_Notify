@@ -6,7 +6,7 @@ end)
 Citizen.CreateThread( function()
     if GetResourceMetadata(GetCurrentResourceName(), 'version') then
         PerformHttpRequest(
-            'https://raw.githubusercontent.com/Shadow/Shadow_Notify/master/version.json',
+            'https://raw.githubusercontent.com/ShadowFiveM/Shadow_Notify/main/version.json',
             function(code, res, headers)
                 if code == 200 then
                     local rv = json.decode(res)
