@@ -9,7 +9,7 @@
 */
 
 $notify = function (args) {
-  let id = $(`.notification`).length + 1;
+  let id = $(`.notification`).length + 1; 
   if(args['icon']) {
     let $notification = $(
       `<div class="notification unfold ${args.position}" style="border-left: 3px solid ${args["color"]}54;" id="${id}">
